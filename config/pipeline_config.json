@@ -1,0 +1,27 @@
+{
+    "pipeline": [
+      {
+        "name": "Train",
+        "config": {
+          "input_dataset_path": "/Users/sridharaluru/Desktop/depa_non_network_models/data/mnist.csv", 
+          "saved_model_path": "//Users/sridharaluru/Desktop/depa_non_network_models/src/Tree.py",
+          "saved_model_optimizer": "",
+          "trained_model_output_path":"",
+          "saved_weights_path": "",
+          "batch_size": 4,
+          "total_epochs": 2,
+          "max_grad_norm": 0.1,
+          "sample_size": 60000, 
+          "target_variable": "label",
+          "test_size": 0.2,
+          "random_state":42,
+          "metrics": [
+            "accuracy",
+            "precision",
+            "recall"
+          ],
+          "logger_file":"/Users/sridharaluru/Desktop/depa_non_network_models/output/logger_file.txt"     
+        }
+      }
+    ]
+  }
